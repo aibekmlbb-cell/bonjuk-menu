@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjuk Bar - Напитки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-switcher">
+    <button onclick="changeLanguage('ru')">RU</button>
+    <button onclick="changeLanguage('kk')">KZ</button>
+    <button onclick="changeLanguage('en')">EN</button>
+    <button onclick="changeLanguage('ko')">KR</button>
+</div>
+
+    <header>
+        <img src="logo.png" alt="Bonjuk Logo" class="header-logo">
+        <div class="logo">BONJUK BAR</div>
+        <p>Освежающие напитки и чаи</p>
+    </header>
+
+    <nav class="menu-nav">
+        <a href="index.html"class="nav-bar-btn">↜KITCHEN MENU</a>
+        <a href="#coffee">Кофе</a>
+        <a href="#ice-coffee">Айс кофе</a>
+        <a href="#not-coffee">Не кофе</a>
+        <a href="#frappe">Фраппе</a>
+        <a href="#milkshakes">Молочные коктейли</a>
+        <a href="#smoothies">Смузи</a>
+        <a href="#lemonades">Лимонады</a>
+        <a href="#lemonades-1l">Лимонады 1л  </a>
+        <a href="#fruit-tea"> Фруктовые чаи</a>
+        <a href="#fruit-tea-pot">Фруктовый чайник чая</a>
+        <a href="#leaf-tea">Листовые чаи</a>
+    </nav>
+
+    <div class="container" id="menu-container"></div>
+
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-img" src="">
+            <h2 id="modal-name"></h2>
+            <p id="modal-desc"></p>
+            <div id="modal-price" class="modal-price-style"></div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Contacts</h3>
+            <p>📞 <a href="tel:+77760611180">+7 (776) 061-11-80</a></p>
+            <p>💬 <a href="https://wa.me/77760611180" target="_blank">WhatsApp</a></p>
+            <p>📸 <a href="https://www.instagram.com/bonjuk_almaty" target="_blank">Instagram</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>📍 г. Алматы, ул. Яссауи, 13-1</p> 
+            <p>⏰Пн-Сб 08:00 — 22:00</p>
+            <p>⏰Вс 09:00 - 22:00</p>
+        </div>
+    </div>
+</footer>
+    <script src="bar-script.js"></script>
+</body>
+</html>

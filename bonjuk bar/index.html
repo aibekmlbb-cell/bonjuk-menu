@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonjuk - Меню</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="language-switcher">
+    <button onclick="changeLanguage('ru')">RU</button>
+    <button onclick="changeLanguage('kk')">KZ</button>
+    <button onclick="changeLanguage('en')">EN</button>
+    <button onclick="changeLanguage('ko')">KR</button>
+</div>
+
+    <header>
+        <img src="logo.png" alt="Bonjuk Logo" class="header-logo">
+
+        <div class="logo">BONJUK</div>
+        <p>Традиционная корейская меню кухни</p>
+    </header>
+
+<nav class="menu-nav">
+        <a href="#juk">Каши</a>
+        <a href="#bibim">Пибимпап</a>
+        <a href="#soup">Супы</a>
+        <a href="#box">Ланч-боксы</a>
+        <a href="#sides">Сайт</a>
+        <a href="#salat">Салаты</a>
+        <a href="#kimbap">Кимбап</a>
+        <a href="#set">Сеты</a>
+        <a href="bar.html" class="nav-bar-btn">BAR MENU⤳</a>
+    </nav>
+
+    <div class="container" id="menu-container">
+        </div>
+
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-name"></h2>
+            <p id="modal-desc"></p>
+            <div id="modal-price" class="modal-price-style"></div>
+        </div>
+    </div>
+ <footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Contacts</h3>
+            <p>📞 <a href="tel:+77760611180">+7 (776) 061-11-80</a></p>
+            <p>💬 <a href="https://wa.me/77760611180" target="_blank">WhatsApp</a></p>
+            <p>📸 <a href="https://www.instagram.com/bonjuk_almaty" target="_blank">Instagram</a></p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>📍 г. Алматы, ул. Яссауи, 13-1</p>
+            <p>⏰ Пн-Сб: 08:00 — 22:00</p>
+            <p>⏰ Вс: 09:00 — 22:00</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 BONJUK Almaty. Все права защищены.</p>
+    </div>
+</footer>
+    <script src="scrypt.js"></script>
+</body>
+</html>
